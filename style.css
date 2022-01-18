@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --soft-green: rgba(194, 201, 189, 0.52);
+  --text-green: rgba(43, 79, 14, 1);
+}
+.background{
+  background-color: rgba(194, 201, 189, 0.52);
+  overflow: hidden;
+}
+
+.tribes{
+  color: var(--text-green);
+  font-size: 8vh;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.tribes-of-nigeria{
+  color: var(--text-green);
+  font-family: 'Rubik Mono One', sans-serif; 
+  font-size: 1.5vh;
+  text-align: center;
+  margin: 0;
+  margin-top: -15px;
+  animation-name: fade-in;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-delay: 0;
+}
+
+.homepage-div{
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  },
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ------------------ Mobile Design ----------------  */
+
+@media only screen and (max-width: 600px) {
+  .homepage-div{
+    margin-top: 80%;
+    /*margin-bottom: 40%;*/
+  }
+}
