@@ -5,6 +5,7 @@
 :root{
   --soft-green: rgba(194, 201, 189, 0.52);
   --text-green: rgba(43, 79, 14, 1);
+  --less-soft-green: rgba(43, 79, 14, 0.31);
 }
 .background{
   background-color: rgba(194, 201, 189, 0.52);
@@ -47,6 +48,32 @@
   animation-duration: 10s;
   animation-timing-function: ease;
   animation-delay: 0;
+}
+
+.enter-button{
+  background-color: var(--text-green);
+  border-radius: 5px;
+  margin-top: 0.5%;
+  width: 5%;
+  height: 5%;
+  border: none;
+  padding: 0.5%;
+}
+
+.enter-button:hover{
+  background-color: var(--less-soft-green);
+}
+
+.enter-button a{
+  color: var(--soft-green);
+  font-size: 1.5vh;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.enter-button a:hover{
+  color: var(--text-green);
 }
 
 .homepage-div{
