@@ -11,6 +11,13 @@
   overflow: hidden;
 }
 
+.nav-bar h1{
+  text-align: left;
+  font-size: 4vh;
+  padding-top: 0.5%;
+  padding-left: 0.5%;
+}
+
 .tribes{
   color: var(--text-green);
   font-size: 8vh;
@@ -55,3 +62,66 @@
     /*margin-bottom: 40%;*/
   }
 }
+
+/* Hamburger Menu */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 332px;
+top: 18px;
+
+
+
+/* - */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 37.04%;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2B4F0E;
+
+
+
+/* - */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 18.52%;
+bottom: 18.52%;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2B4F0E;
+
+
+
+/* - */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 37.04%;
+bottom: 0%;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2B4F0E;
+
