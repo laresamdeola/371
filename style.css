@@ -89,7 +89,7 @@
 .tribes-section-one{
   text-align: center;
   height: 100px;
-  margin-top: 0.5%;
+  margin-top: 1.8%;
   /*margin-top: 20%;
   margin-bottom: 20%;*/
 }
@@ -98,19 +98,21 @@
   margin: 0;
   margin-left: 3%;
   padding: 0;
-  float: left;
+  text-align: center;
+  width: 100%;
 }
 
 .tribes-section-one ul li{
   list-style-type: none;
-  display: inline-block;
   margin-left: 0;
+  margin: 0.25%;
+  
 }
 
 .tribes-text{
   color: var(--text-green);
   font-family: 'Rubik Mono One', sans-serif; 
-  font-size: 1.3vh;
+  font-size: 2.5vh;
 }
 
 @keyframes fade-in {
