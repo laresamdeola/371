@@ -137,6 +137,21 @@
     height: 100px;
     margin-top: 10%;
   }
+
+  .enter-button{
+    margin-top: 2.5%;
+    width: 20%;
+    height: 35px;
+  }
+
+  .enter-button a{
+    color: var(--soft-green);
+    font-size: 1vh;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5%;
+  }
   
 }
 
