@@ -106,13 +106,18 @@
   list-style-type: none;
   margin-left: 0;
   margin: 0.25%;
-  
+  color: inherit;
+  transition: 2s color;
 }
 
 .tribes-text{
   color: var(--text-green);
   font-family: 'Rubik Mono One', sans-serif; 
   font-size: 2.5vh;
+}
+
+.tribes-section-one ul li:hover{
+  color: var(--less-soft-green);
 }
 
 @keyframes fade-in {
